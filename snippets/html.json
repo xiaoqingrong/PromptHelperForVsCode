@@ -1,0 +1,9 @@
+{
+  "pqFormat": {
+    "prefix": "pqFormat",
+    "body": [
+      "请格式化当前选中的内容，添加注释，不要删除任何内容，需要规范"
+    ],
+    "description": "prompt quick format(快速格式化)"
+  }
+}

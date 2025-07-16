@@ -1,0 +1,55 @@
+{
+  "name": "Prompt Helper",
+  "displayName": "Prompt Helper",
+  "description": "Prompt Helper",
+  "version": "0.0.1",
+  "publisher": "jecksonli",
+  "icon": "logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaoqingrong/PromptHelperForVsCode.git"
+  },
+  "engines": {
+    "vscode": "^1.5.0"
+  },
+  "keywords": [
+    "ai",
+    "prompt",
+    "helper"
+],
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "languages": [
+        {
+            "id": "vue",
+            "aliases": [
+                "Vue",
+                "vue"
+            ],
+            "extensions": [
+                ".vue"
+            ]
+        }
+    ],
+    "snippets": [
+      {
+        "language": "vue",
+        "path": "./snippets/vue.json"
+      },
+      {
+          "language": "html",
+          "path": "./snippets/html.json"
+      },
+      {
+          "language": "vue-html",
+          "path": "./snippets/html.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/js.json"
+      }
+    ]
+  }
+}
