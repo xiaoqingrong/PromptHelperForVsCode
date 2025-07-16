@@ -1,9 +1,9 @@
 {
-  "name": "prompt-helper-snippets",
-  "displayName": "prompt-helper-snippets",
-  "description": "prompt-helper-snippets",
+  "name": "prompt-helper-frontend",
+  "displayName": "prompt-helper-frontend",
+  "description": "prompt-helper-frontend",
   "version": "0.0.1",
-  "publisher": "prompt-helper-snippets",
+  "publisher": "PromptHelper",
   "icon": "logo.png",
   "repository": {
     "type": "git",
