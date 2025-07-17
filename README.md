@@ -1,5 +1,5 @@
 # PromptHelper
-Your programming ai prompt assistant
+Your programming ai prompt assistant!
 
 ## use
 before add keyword: 'p'
