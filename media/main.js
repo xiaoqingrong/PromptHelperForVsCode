@@ -69,7 +69,7 @@
     // }
 		async function fetchAIPrompt() {
 			try {
-					const response = await fetch('http://127.0.0.1:5002/prompts?page=1&size=100', {
+					const response = await fetch('https://vscodeapi.frontlearn.work:8086/prompts?page=1&size=100', {
 							// mode: 'no-cors' // Add no-cors mode to handle CORS restrictions
 					});
 					console.log(response,"response");

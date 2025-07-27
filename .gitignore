@@ -10,3 +10,4 @@
 .env.test
 .env.production
 node_modules
+prompt-helper-frontend*
