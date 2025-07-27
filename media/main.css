@@ -1,0 +1,100 @@
+body {
+	background-color: transparent;
+}
+
+.topWrap {
+	border: 1px solid #ccc;
+	padding: 4px;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+.prompt-list {
+	
+}
+.prompt-item {
+
+	margin-top: 10px;
+	padding: 2px;
+	border-top: 1px solid #ccc;
+}
+.prompt-title {
+	display: flex;
+	gap: 6px;
+	font-weight: bold;
+}
+.prompt-title img {
+	width: 16px;
+	height: 16px;
+}
+#Vue2Wrap {
+
+}
+
+.prompt-item {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+}
+.prompt-item .prompt-icon {
+	width: 20px;
+	height: 20px;
+}
+.prompt-item .promp_description .promp_description_tip{
+	color: var(--vscode-editor-foreground);
+	font-size: 12px;
+}
+.prompt-content {
+	padding: 4px;
+}
+.prompt-title-text {
+	color: var(--vscode-editor-foreground);
+}
+
+/* 折叠功能样式 */
+.title {
+	position: relative;
+	cursor: pointer;
+	padding: 8px 0;
+	color: var(--vscode-editor-foreground);
+	user-select: none;
+	font-weight: bold;
+	transition: all 0.3s ease;
+}
+
+/* 添加折叠/展开图标 */
+.title.collapsible::before {
+	content: '';
+	position: absolute;
+	left: -15px;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 0;
+	height: 0;
+	border-style: solid;
+	transition: transform 0.3s ease;
+}
+
+/* 展开状态的图标（向下箭头） */
+.title.expanded::before {
+	border-width: 6px 6px 0 6px;
+	border-color: var(--vscode-editor-foreground) transparent transparent transparent;
+	transform: translateY(-50%) rotate(0deg);
+}
+
+/* 折叠状态的图标（向右箭头） */
+.title.collapsed::before {
+	border-width: 6px 0 6px 6px;
+	border-color: transparent transparent transparent var(--vscode-editor-foreground);
+	transform: translateY(-50%) rotate(0deg);
+}
+
+/* 折叠/展开的动画效果 */
+.prompt-list {
+	overflow: hidden;
+	transition: height 0.3s ease;
+}
+
+/* 为标题添加左边距，为图标腾出空间 */
+.title.collapsible {
+	margin-left: 15px;
+}
