@@ -1,7 +1,7 @@
 {
-  "name": "前端AI提示词",
-  "displayName": "前端AI提示词",
-  "description": "前端AI提示词",
+  "name": "prompt-helper-frontend",
+  "displayName": "prompt-helper-frontend",
+  "description": "prompt-helper-frontend",
   "version": "0.0.1",
   "publisher": "PromptHelper",
   "icon": "logo.png",
